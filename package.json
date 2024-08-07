@@ -6,8 +6,15 @@
   "scripts": {
     "start:dev": "node --watch ./src/index.js"
   },
-  "keywords": ["nodejs", "qrcode", "password"],
+  "keywords": [
+    "nodejs",
+    "qrcode",
+    "password"
+  ],
   "author": "Gabriel Santos (Gabe)",
   "license": "ISC",
-  "description": "Kit de utilidades para geradores (Gerar senhas e QRCode)"
+  "description": "Kit de utilidades para geradores (Gerar senhas e QRCode)",
+  "dependencies": {
+    "prompt": "^1.3.0"
+  }
 }
