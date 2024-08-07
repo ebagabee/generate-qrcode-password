@@ -1,0 +1,13 @@
+{
+  "name": "qrcode-password-generate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start:dev": "node --watch ./src/index.js"
+  },
+  "keywords": ["nodejs", "qrcode", "password"],
+  "author": "Gabriel Santos (Gabe)",
+  "license": "ISC",
+  "description": "Kit de utilidades para geradores (Gerar senhas e QRCode)"
+}
