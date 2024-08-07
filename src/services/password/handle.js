@@ -5,16 +5,16 @@ async function permittedCharacters() {
         permitted.push(..."ABCDEFGHIJKLMNOPQRSTUVWXYZ")
 
     if (process.env.LOWERCASE_LETTERS === "true")
-        permitted.push("abcdefghijklmnopqrstuvwxyz")
+        permitted.push(..."abcdefghijklmnopqrstuvwxyz")
 
     if (process.env.NUMBERS === "true")
-        permitted.push("0123456789")
+        permitted.push(..."0123456789")
 
     if (process.env.SPECIAL_CHARACTERS === "true")
-        permitted.push("!@#$%&*()_-")
+        permitted.push(..."!@#$%&*()_-")
 
     if (process.env.NUMBERS === "true")
-        permitted.push("0123456789")
+        permitted.push(..."0123456789")
 
     return permitted;
 }
